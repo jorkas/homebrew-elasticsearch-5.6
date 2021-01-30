@@ -6,7 +6,7 @@ class ElasticsearchAT56 < Formula
 
   bottle :unneeded
 
-  depends_on :java => "openjdk"
+  depends_on "openjdk"
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
